@@ -25,9 +25,7 @@ export default async function Image() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            width: 80,
-            height: 80,
-            borderRadius: 40,
+            padding: "8px 16px",
             background: "#ff385c",
             marginBottom: 24,
             fontSize: 36,
@@ -74,7 +72,7 @@ export default async function Image() {
             fontWeight: 600,
           }}
         >
-        Hubungi Sekarang Juga
+        Hubungi Sekarang!
         </div>
       </div>
     ),
