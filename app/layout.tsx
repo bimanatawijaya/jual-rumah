@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Jual Rumah di Dramaga Bogor dengan universitas IPB | Jual rumah dengan SHM Murah",
+    default: "Muraah!! Dijual Rumah di Dramaga Bogor dekat universitas IPB | Jual rumah dengan SHM Murah",
     template: "%s | Jual Rumah Dramaga Bogor dengan SHM",
   },
   description:
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Jual Rumah Dramaga",
     title: "Jual Rumah di Dramaga Bogor | Jual rumah dengan sertifikat hak milik",
     description:
-      ".",
+      "Dijual Rumah 3 KT, 2 KM, luas 283 m² di kawasan Dramaga dekat IPB. taman, SHM. Lokasi strategis dekat IPB. Hubungi langsung pemilik",
     images: [
       {
         url: "/og-image.png",

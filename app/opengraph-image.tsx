@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 
-export const alt = "Villa Modern Minimalis di Dramaga Malang"
+export const alt = "Rumah dijual di Dramaga Bogor dengan SHM, lokasi strategis dekat IPB"
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
 
@@ -35,7 +35,7 @@ export default async function Image() {
             fontWeight: 700,
           }}
         >
-          JD
+          TANPA PERANTARA
         </div>
         <h1
           style={{
@@ -48,7 +48,7 @@ export default async function Image() {
             marginBottom: 12,
           }}
         >
-          Villa Modern Minimalis
+          Rumah dijual di Dramaga Bogor dengan SHM, lokasi strategis dekat IPB
         </h1>
         <p
           style={{
@@ -59,7 +59,7 @@ export default async function Image() {
             marginBottom: 32,
           }}
         >
-          Dramaga, Malang · 4 KT · 3 KM · 350 m²
+          Dramaga, Bogor · 3 KT · 2 KM · 283 m²
         </p>
         <div
           style={{
@@ -74,7 +74,7 @@ export default async function Image() {
             fontWeight: 600,
           }}
         >
-          Rp 2,85 Miliar
+        Hubungi Sekarang Juga
         </div>
       </div>
     ),

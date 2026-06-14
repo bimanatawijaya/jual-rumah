@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Jual Rumah Dramaga - Villa Modern Minimalis",
+    name: "Jual Rumah Dramaga - Rumah Dijual di Dramaga Bogor dengan SHM",
     short_name: "JualRumah",
     description:
-      "Website penjualan villa modern minimalis di Dramaga Malang. Hubungi langsung pemilik.",
+      "Website jual rumah dramaga dengan Sertifkat Hak Milik (SHM). Hubungi langsung pemilik.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
