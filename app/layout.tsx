@@ -12,6 +12,7 @@ const inter = Inter({
 })
 
 const baseUrl = "https://jualrumahdramaga.web.id"
+const googleSearchVerification = process.env.GOOGLE_SEARCH_CONSOLE_VERIFICATION || ""
 
 
 export const viewport: Viewport = {
@@ -67,7 +68,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   verification: {
-    google: "YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION",
+    google: googleSearchVerification,
   },
 }
 
