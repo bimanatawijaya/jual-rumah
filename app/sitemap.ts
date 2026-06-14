@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next"
+import { property } from "@/data/property"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://jualrumahdramaga.web.id"
@@ -6,17 +7,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: new Date(property.updated_at),
       changeFrequency: "weekly",
       priority: 1,
-      images: [
-        `${baseUrl}/images/images.jpeg`,
-        `${baseUrl}/images/images_r_tamu.jpeg`,
-        `${baseUrl}/images/images_dapur.jpeg`,
-        `${baseUrl}/images/images_kamar_mandi.jpeg`,
-        `${baseUrl}/images/images_halaman.jpeg`,
-        `${baseUrl}/images/images2.jpeg`,
-      ],
+      images: property.images.map((img) => `${baseUrl}${img.url}`),
     },
   ]
 }
