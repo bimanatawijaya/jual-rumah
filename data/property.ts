@@ -194,7 +194,7 @@ Jangan lewatkan kesempatan memiliki rumah strategis di Kampung Manggis Dramaga B
     name: "Bima Natawijaya",
     phone: numberWhatsapp,
     email: "",
-    photoUrl: "/images/etalase_udara.jpg",
+    photoUrl: "/agent/penjual.jpg",
   },
   created_at: "2026-06-15T08:00:00Z",
   updated_at: "2026-06-15T10:30:00Z",
