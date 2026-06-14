@@ -187,7 +187,7 @@ Jangan lewatkan kesempatan memiliki rumah strategis di Kampung Manggis Dramaga B
     "Carport untuk 1 mobil",
     "Dapur",
     "Listrik 5500 Watt",
-    "Sumur bor + Air Gunungh",
+    "Sumur bor + Air Gunung",
     "Sertifikat SHM",
   ],
   agent: {
