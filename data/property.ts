@@ -17,6 +17,11 @@ export interface PropertyAgent {
   photoUrl: string
 }
 
+export interface Faq {
+  question : string
+  answer : string
+}
+
 export interface Property {
   id: string
   title: string
@@ -32,6 +37,7 @@ export interface Property {
   description: string
   features: string[]
   agent: PropertyAgent
+  faq : Faq[]
   created_at: string
   updated_at: string
 }
@@ -118,70 +124,51 @@ export const property: Property = {
       caption: "Halaman samping rumah",
     },
   ],
-  description: `Sedang mencari rumah dijual di Dramaga Bogor dengan lokasi strategis, luas, dan dekat berbagai fasilitas penting? Inilah kesempatan terbaik untuk memiliki rumah nyaman di Kampung Manggis, Dramaga, Bogor dengan status Sertifikat Hak Milik (SHM) dan akses yang sangat mudah ke pusat aktivitas masyarakat.
+  description: `Kesempatan memiliki rumah luas di kawasan Dramaga Bogor dengan lokasi strategis dekat Kampus IPB University. Properti ini sangat cocok sebagai hunian keluarga maupun investasi jangka panjang karena berada di lingkungan yang berkembang pesat dan memiliki akses mudah ke berbagai fasilitas umum.
 
-Rumah ini sangat cocok untuk hunian keluarga, tempat tinggal dosen atau karyawan, maupun investasi properti karena berada di kawasan yang berkembang pesat dan dekat dengan berbagai fasilitas pendidikan, pemerintahan, serta pusat perbelanjaan.
+Rumah berdiri di atas lahan seluas 283 m² dengan luas bangunan 200 m², terdiri dari 3 kamar tidur dan 2 kamar mandi. Status kepemilikan sudah Sertifikat Hak Milik (SHM) sehingga memberikan keamanan dan kenyamanan dalam bertransaksi.
 
-Spesifikasi Rumah
+<h2>Spesifikasi Rumah</h2>
 Luas Tanah: 283 m²
 Luas Bangunan: 200 m²
 Kamar Tidur: 3
 Kamar Mandi: 2
-Sertifikat: SHM (Sertifikat Hak Milik)
-Lokasi: Kampung Manggis, Dramaga, Bogor
-Keunggulan Lokasi Strategis
+Sertifikat: SHM
+Kondisi Bangunan: Siap Huni
+Akses Jalan: Mudah Dilalui Mobil
 
-Salah satu nilai tambah utama rumah ini adalah lokasinya yang berada di kawasan strategis Dramaga, sehingga memudahkan aktivitas sehari-hari seluruh anggota keluarga.
+<h2>Keunggulan Lokasi</h2>
+Lokasi rumah berada di Kampung Manggis, Dramaga, Kabupaten Bogor yang dikenal sebagai salah satu kawasan berkembang dengan permintaan properti yang terus meningkat.
 
-Dekat Kampus IPB Dramaga
+Beberapa fasilitas penting yang berada di sekitar lokasi antara lain:
 
-Rumah ini berlokasi tidak jauh dari IPB University, salah satu perguruan tinggi terbaik di Indonesia. Lokasi ini sangat ideal bagi dosen, tenaga kependidikan, mahasiswa pascasarjana, maupun investor yang mencari properti di sekitar kawasan pendidikan.
+Dekat Kampus IPB University Dramaga
+Dekat Terminal Dramaga
+Dekat Pasar Dramaga
+Dekat pusat perbelanjaan dan minimarket
+Dekat sekolah dan fasilitas pendidikan
+Dekat fasilitas kesehatan dan klinik
+Akses mudah menuju Kota Bogor
+Lingkungan nyaman dan cocok untuk keluarga
 
-Dekat Pusat Perbelanjaan dan Kebutuhan Harian
+<h2>Cocok untuk Hunian maupun Investasi</h2>
+Lokasi yang berada dekat kawasan pendidikan dan pusat aktivitas masyarakat menjadikan rumah ini memiliki nilai investasi yang menarik. Permintaan hunian di sekitar IPB Dramaga terus meningkat setiap tahunnya, baik untuk tempat tinggal maupun kebutuhan sewa.
 
-Akses menuju berbagai fasilitas umum sangat mudah, di antaranya:
+Dengan lahan yang luas dan posisi yang strategis, rumah ini dapat dimanfaatkan sebagai:
 
-Pusat perbelanjaan dan minimarket
-Pasar tradisional Dramaga
-Toko kebutuhan sehari-hari
-Area kuliner dan pusat usaha masyarakat
-Dekat Terminal dan Akses Transportasi
+Hunian keluarga
+Rumah pensiun yang nyaman
+Investasi properti jangka panjang
+Potensi rumah kos atau kontrakan
+Aset properti dengan nilai yang terus berkembang
 
-Rumah memiliki akses yang baik menuju terminal dan jalur transportasi umum sehingga memudahkan mobilitas menuju Kota Bogor maupun wilayah sekitarnya.
-
-Dekat Pusat Pemerintahan Dramaga
-
-Lokasi rumah juga berada dekat dengan berbagai instansi pemerintahan, seperti:
-
-Kantor Kecamatan Dramaga
-Kantor KUA Dramaga
-Kantor Desa
-Berbagai layanan administrasi masyarakat
-
-Keunggulan ini memberikan kemudahan bagi pemilik rumah dalam mengurus berbagai kebutuhan administratif tanpa harus menempuh perjalanan jauh.
-
-Rumah Luas dan Nyaman untuk Keluarga
-
-Dengan luas tanah 283 m² dan luas bangunan 200 m², rumah ini menawarkan ruang yang lega untuk aktivitas keluarga. Tersedia 3 kamar tidur dan 2 kamar mandi yang dapat menunjang kenyamanan seluruh penghuni.
-
-Lahan yang luas juga memberikan peluang untuk pengembangan bangunan, pembuatan taman, area bermain anak, maupun kebutuhan lainnya sesuai keinginan pemilik.
-
-Investasi Properti Menjanjikan di Dramaga Bogor
-
-Kawasan Dramaga terus berkembang seiring pertumbuhan kawasan pendidikan, perdagangan, dan pemerintahan. Permintaan hunian di sekitar Dramaga juga terus meningkat karena lokasinya yang strategis dan dekat dengan berbagai fasilitas penting.
-
-Rumah ini menjadi pilihan tepat bagi Anda yang mencari:
-
-Rumah dijual di Dramaga Bogor
-Rumah dekat IPB Dramaga
-Rumah SHM di Bogor
-Rumah luas di Dramaga
-Rumah strategis dekat pusat pemerintahan
-Investasi properti Bogor
-Rumah keluarga di Dramaga
-Hubungi Sekarang
-
-Jangan lewatkan kesempatan memiliki rumah strategis di Kampung Manggis Dramaga Bogor dengan luas tanah 283 m², luas bangunan 200 m², dan status SHM. Lokasi yang dekat dengan kampus IPB, pusat perbelanjaan, pasar, terminal, serta pusat pemerintahan menjadikan rumah ini pilihan ideal untuk hunian maupun investasi jangka panjang`,
+<h2>Mengapa Memilih Rumah Ini?</h2>
+✔ Sertifikat Hak Milik (SHM)
+✔ Lokasi strategis dekat IPB Dramaga
+✔ Luas tanah dan bangunan yang lega
+✔ Dekat fasilitas umum lengkap
+✔ Lingkungan nyaman dan aman
+✔ Potensi investasi properti yang menjanjikan`,
   features: [
     "Taman minimalis",
     "Carport untuk 1 mobil",
@@ -196,6 +183,28 @@ Jangan lewatkan kesempatan memiliki rumah strategis di Kampung Manggis Dramaga B
     email: "",
     photoUrl: "/agent/penjual.jpg",
   },
+  faq:[
+    {
+      question: "Apakah rumah ini dekat dengan IPB Dramaga?",
+      answer : "Ya, lokasi rumah berada tidak jauh dari Kampus IPB University Dramaga sehingga sangat cocok bagi keluarga, dosen, maupun investor properti."
+    },
+    {
+      question: "Apakah status kepemilikan rumah sudah SHM?",
+      answer : "Ya, rumah ini memiliki Sertifikat Hak Milik (SHM) sehingga aman untuk proses jual beli."
+    },
+    {
+      question: "Apakah rumah cocok untuk investasi?",
+      answer : "Sangat cocok. Kawasan Dramaga merupakan salah satu area dengan pertumbuhan properti yang cukup baik karena didukung oleh keberadaan IPB University dan berbagai fasilitas umum."
+    },
+    {
+      question: "Apakah akses menuju rumah mudah?",
+      answer : "Ya, rumah memiliki akses yang mudah dijangkau kendaraan dan dekat dengan jalan utama kawasan Dramaga."
+    },
+     {
+      question: "Bagaimana cara survei lokasi?",
+      answer : "Silakan hubungi kontak yang tersedia untuk menjadwalkan survei lokasi dan melihat kondisi rumah secara langsung."
+    },
+  ],
   created_at: "2026-06-15T08:00:00Z",
   updated_at: "2026-06-15T10:30:00Z",
 }

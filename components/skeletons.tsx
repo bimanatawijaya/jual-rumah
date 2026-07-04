@@ -55,6 +55,22 @@ export function FeaturesSkeleton() {
   )
 }
 
+export function FaqSkeleton() {
+  return (
+    <div className="space-y-3 animate-pulse">
+      <div className="h-6 bg-surface-soft rounded w-32" />
+      <div className="divide-y divide-hairline border-y border-hairline">
+        {Array.from({ length: 3 }).map((_, i) => (
+          <div key={i} className="py-4 space-y-2">
+            <div className="h-4 bg-surface-soft rounded w-3/4" />
+            <div className="h-3 bg-surface-soft rounded w-1/2" />
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export function MapSkeleton() {
   return (
     <div className="space-y-3 animate-pulse">

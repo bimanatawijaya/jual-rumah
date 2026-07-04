@@ -24,11 +24,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Muraah!! Dijual Rumah di Dramaga Bogor dekat universitas IPB | Jual rumah dengan SHM Murah",
+    default: "Rumah Dijual Dekat IPB Dramaga Bogor | SHM | LT 283 m² LB 200 m²",
     template: "%s | Jual Rumah Dramaga Bogor dengan SHM",
   },
   description:
-    "Dijual Rumah 3 KT, 2 KM, luas 283 m² di kawasan Dramaga dekat IPB. taman, SHM. Lokasi strategis dekat IPB. Hubungi langsung pemilik.",
+    "Rumah dijual di Dramaga Bogor dekat IPB University. Luas tanah 283 m², luas bangunan 200 m², 3 kamar tidur, 2 kamar mandi, SHM, lokasi strategis dan cocok untuk investasi maupun hunian keluarga.",
   keywords: [
     "jual rumah dramaga",
     "rumah dijual dramaga Bog",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "id_ID",
     siteName: "Jual Rumah Dramaga",
-    title: "Jual Rumah di Dramaga Bogor | Jual rumah dengan sertifikat hak milik",
+    title: "Rumah Dijual Dekat IPB Dramaga Bogor | SHM | LT 283 m² LB 200 m²",
     description:
-      "Dijual Rumah 3 KT, 2 KM, luas 283 m² di kawasan Dramaga dekat IPB. taman, SHM. Lokasi strategis dekat IPB. Hubungi langsung pemilik",
+      "Rumah dijual di Dramaga Bogor dekat IPB University. Luas tanah 283 m², luas bangunan 200 m², 3 kamar tidur, 2 kamar mandi, SHM, lokasi strategis dan cocok untuk investasi maupun hunian keluarga.",
     images: [
       {
         url: "/og-image.png",
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jual Rumah di Dramaga Bogor, IPB | Rumah dengan Sertifikat Hak Milik",
+    title: "Rumah Dijual Dekat IPB Dramaga Bogor | SHM | LT 283 m² LB 200 m²",
     description:
-      "Dijual Rumah 3 KT, 2 KM, luas 283 m² di Dramaga Bogor. Murah, nyaman dan strategis. Hubungi langsung pemilik.",
+      "Rumah dijual di Dramaga Bogor dekat IPB University. Luas tanah 283 m², luas bangunan 200 m², 3 kamar tidur, 2 kamar mandi, SHM, lokasi strategis dan cocok untuk investasi maupun hunian keluarga.",
     images: ["/og-image.png"],
   },
   alternates: {
@@ -96,9 +96,9 @@ export default function RootLayout({
             "@type": "WebSite",
             "@id": "https://jualrumahdramaga.web.id/#website",
             url: "https://jualrumahdramaga.web.id",
-            name: "Jual Rumah Dramaga",
+            name: "Rumah Dijual Dekat IPB Dramaga Bogor | SHM | LT 283 m² LB 200 m²",
             description:
-              "Website jual rumah dramaga dengan Sertifkat Hak Milik (SHM). Hubungi langsung pemilik.",
+              "Rumah dijual di Dramaga Bogor dekat IPB University. Luas tanah 283 m², luas bangunan 200 m², 3 kamar tidur, 2 kamar mandi, SHM, lokasi strategis dan cocok untuk investasi maupun hunian keluarga.",
             inLanguage: "id",
           }}
         />
@@ -107,7 +107,7 @@ export default function RootLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             "@id": "https://jualrumahdramaga.web.id/#organization",
-            name: "Jual Rumah Dramaga",
+            name: "Rumah dijual di Dramaga Bogor dekat IPB University. Luas tanah 283 m², luas bangunan 200 m², 3 kamar tidur, 2 kamar mandi, SHM, lokasi strategis dan cocok untuk investasi maupun hunian keluarga.",
             url: "https://jualrumahdramaga.web.id",
           }}
         />

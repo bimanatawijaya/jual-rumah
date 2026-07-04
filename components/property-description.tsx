@@ -8,9 +8,10 @@ export function PropertyDescription({ description }: PropertyDescriptionProps) {
       <h2 className="text-[21px] font-[700] leading-[1.43] text-ink">
         Deskripsi
       </h2>
-      <div className="text-body text-base leading-relaxed whitespace-pre-line text-pretty">
-        {description}
-      </div>
+      <div
+        className="[&_h2]:text-[18px] [&_h2]:font-[500] [&_h2]:leading-[1.43] [&_h2]:text-ink [&_h2]:mt-4 [&_h2]:mb-2 text-body text-base leading-relaxed whitespace-pre-line "
+        dangerouslySetInnerHTML={{ __html: description }}
+      />
     </section>
   )
 }
