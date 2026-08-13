@@ -63,6 +63,18 @@ export const property: Property = {
   bathrooms: 2,
   area_m2: 283,
   images: [
+     {
+      url: "/images/depan1.jpg",
+      caption: "Tampak depan rumah",
+    },
+     {
+      url: "/images/depan2.jpg",
+      caption: "Tampak depan rumah",
+    },
+     {
+      url: "/images/depan3.jpg",
+      caption: "Tampak depan rumah",
+    },
     {
       url: "/images/etalase_udara.jpg",
       caption: "Tampak depan rumah dengan taman hijau",
@@ -106,10 +118,6 @@ export const property: Property = {
     {
       url: "/images/kamar_mandir_2.jpg",
       caption: "Kamar mandi kedua",
-    },
-    {
-      url: "/images/ruang_sholat.jpg",
-      caption: "Ruang sholat",
     },
     {
       url: "/images/tempat_wudhu.jpg",
